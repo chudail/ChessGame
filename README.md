@@ -12,7 +12,7 @@ cd Reviewer
 npm install
 ```
 
-Create a `.env` file for environment variables in your server.
+Create a `.env` file for environment variables in your server, with content as PORT=3001 which then read by Server/index.js
 
 You can start the server on its own with the command:
 
