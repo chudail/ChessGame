@@ -19,7 +19,7 @@ class Slider extends Component {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>Fire Products</h3>
+                        <h3>New Fire Products</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
