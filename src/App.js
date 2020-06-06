@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import Toolbar from './components/Toolbar/Toolbar.js';
+import Header from './components/Header/Header.js';
 import ImageSlider from './components/ImageSlider.js';
 import electronic from './images/electronic.jpg';
 import furniture from './images/furniture.jpg';
 import medicine from './images/medicine.jpg';
 import stationary from './images/stationary.jpg';
+import Footer from './components/Footer/index.js';
+
+
 
 import './App.css';
 
@@ -34,12 +37,13 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Toolbar />
+        <Header />
         <ImageSlider />
         <img src={electronic} class="Thumbnail m-5" alt="electronic" />
         <img src={furniture}  class="Thumbnail m-5" alt="furniture" />
         <img src={medicine} width="120" height="180" class="Thumbnail m-5" alt="medicine" />
         <img src={stationary} class="Thumbnail" alt="stationary" />
+        <Footer/>
       </div>
 
     );

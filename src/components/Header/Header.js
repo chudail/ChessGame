@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
 
-const toolbar = props => (
+const header = props => (
     <Navbar  bg="dark" variant="dark">
         <Navbar.Brand href="#home">Reviewer.com</Navbar.Brand>
         <Nav className="mr-auto">
@@ -17,4 +17,4 @@ const toolbar = props => (
     </Navbar>
 );
 
-export default toolbar;
+export default header;
