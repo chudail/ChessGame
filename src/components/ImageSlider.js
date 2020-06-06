@@ -9,13 +9,13 @@ class Slider extends Component {
 
     render() {
         return (
-            <Carousel>
+            <Carousel >
                 <Carousel.Item>
                     <img
-                        className="d-block w-60"
+                        className="d-block w-100"
                         src={test1}
-                        width = "1350"
-                        height = "400"
+                        width = "1500px"
+                        height = "600px"
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -24,10 +24,10 @@ class Slider extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-60"
+                        className="d-block w-100"
                         src={test2}
-                        width = "1350"
-                        height = "400"
+                        width = "1500px"
+                        height = "600px"
                         alt="Third slide"
                     />
 
