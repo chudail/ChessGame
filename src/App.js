@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-//import logo from './logo.svg';
 import Toolbar from './components/Toolbar/Toolbar.js';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import ImageSlider from './components/ImageSlider.js';
 import './App.css';
 
 class App extends Component {
@@ -30,6 +29,7 @@ class App extends Component {
     return (
         <div className="App">
         <Toolbar />
+        <ImageSlider/>
         </div>
         
     );
